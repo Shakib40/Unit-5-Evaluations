@@ -114,24 +114,26 @@ const AdminForm = () => {
 
     return (
         <section>
-            <div>
-                <h2>Admin Sign in</h2>
-                <input value={username} type="text"
-                    onChange={(e) => setUsername(e.target.value)}
-                    placeholder="Comapny Name" /><br />
+            {token ? null :
+                <div>
+                    <h2>Admin Sign in</h2>
+                    <input value={username} type="text"
+                        onChange={(e) => setUsername(e.target.value)}
+                        placeholder="Comapny Name" /><br />
 
-                <input value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    placeholder="Set Email" /><br />
+                    <input value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        placeholder="Set Email" /><br />
 
-                <input value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                    placeholder="Set Password" /><br />
+                    <input value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                        placeholder="Set Password" /><br />
 
 
-                <button onClick={handleAdd}>Add</button>
+                    <button onClick={handleAdd}>Add</button>
 
-            </div>
+                </div>
+            }
 
             <div>
                 <h2>Admin Login</h2>

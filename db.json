@@ -17,6 +17,15 @@
       "description": "aaa",
       "location": "aaa",
       "status": false
+    },
+    {
+      "id": "69bd2eb7-76cd-4977-b1c4-5fe74e164fde",
+      "companyname": "aa",
+      "jobtitle": "aaa",
+      "salary": "aaa",
+      "description": "aaa",
+      "location": "aaa",
+      "status": false
     }
   ],
   "appliedJOb": [],
@@ -59,6 +68,20 @@
       "username": "shakibjilani",
       "email": "shakibjilani@gmail.com",
       "password": "shakib1",
+      "status": false
+    },
+    {
+      "id": "38ed162a-7e1b-4fd0-b73a-b994cff1d62f",
+      "username": "aa",
+      "email": "aa",
+      "password": "aa",
+      "status": false
+    },
+    {
+      "id": "d689d950-8991-482c-b8b1-a222bc7adf92",
+      "username": "prakhar",
+      "email": "prakhar@gmail.com",
+      "password": "aaa",
       "status": false
     }
   ]

@@ -43,7 +43,7 @@ export const Navbar = () => {
 
             <Link to="/">Home</Link>
 
-            <Link to="/about">About</Link>
+            <Link to="/about">Jobs</Link>
 
             {token ?
                 <a onClick={logoutAdmin}>Logout({token})</a> :
