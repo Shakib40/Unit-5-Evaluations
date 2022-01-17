@@ -1,0 +1,65 @@
+{
+  "companyJob": [
+    {
+      "id": "23d78d42-3b54-410f-9857-9d9bcae90325",
+      "companyname": "Apple",
+      "jobtitle": "Developer",
+      "salary": "12012",
+      "description": "join",
+      "location": "patna",
+      "status": false
+    },
+    {
+      "id": "e5c386b7-f7a1-425d-9d56-6f96dc006f38",
+      "companyname": "new1",
+      "jobtitle": "new2",
+      "salary": "111s",
+      "description": "aaa",
+      "location": "aaa",
+      "status": false
+    }
+  ],
+  "appliedJOb": [],
+  "admin": [
+    {
+      "id": "abd9d8d6-0d05-4d3b-ad8a-497fccb58eb4",
+      "username": "helllo1",
+      "password": "hello",
+      "status": false
+    },
+    {
+      "id": "48dbe989-8d53-4c47-8655-80cbe049fcc5",
+      "username": "admin1",
+      "password": "admin1",
+      "status": false
+    },
+    {
+      "id": "2aef50f9-58f5-409a-987f-519b6d4ffee2",
+      "username": "admin2",
+      "email": "admin2@gmail.com",
+      "password": "admin2",
+      "status": false
+    },
+    {
+      "id": "c1812b55-d6ee-4915-ba4f-72074f3af2f7",
+      "username": "admin3",
+      "email": "admin3@gmail.com",
+      "password": "admin3",
+      "status": false
+    },
+    {
+      "id": "02806642-7ac8-4b2a-aca1-bdb51005b8cc",
+      "username": "admin5",
+      "email": "admin5@gmail.com",
+      "password": "admin5",
+      "status": false
+    },
+    {
+      "id": "895539d3-ab91-4b97-aacb-3b9a86c8c905",
+      "username": "shakibjilani",
+      "email": "shakibjilani@gmail.com",
+      "password": "shakib1",
+      "status": false
+    }
+  ]
+}

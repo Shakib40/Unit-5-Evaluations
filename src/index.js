@@ -1,13 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import { Provider as ReactProvider } from 'react-redux';
+import {store} from './Store/store';
+
+import { BrowserRouter  } from 'react-router-dom';
+
+import {AuthContextProvider} from './Context/AuthContext';
+
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
+  <AuthContextProvider>
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+   <BrowserRouter>
+    <ReactProvider store={store}>
+      <App />
+    </ReactProvider>
+    </BrowserRouter>
+  </React.StrictMode>
+  </AuthContextProvider>,
   document.getElementById('root')
 );
 
